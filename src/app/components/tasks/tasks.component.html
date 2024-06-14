@@ -1,0 +1,7 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+<app-edit-task (onEditTask)="editTask($event)"></app-edit-task>
+<div cdkDropList [cdkDropListData]="tasks" (cdkDropListDropped)="drop($event)">
+  <app-task-item *ngFor="let task of tasks" [task]="task" (onDeleteTask)="deleteTask(task)"
+    (onEditTask)="editTask(task)" (onToggleReminder)="toggleReminder(task)" cdkDrag></app-task-item>
+</div>
+<p *ngIf="!tasks.length">No tasks yet.</p>
