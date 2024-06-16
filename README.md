@@ -1,27 +1,41 @@
-# TodoappWithserver
+# TodoApp: A Simple Angular To-Do List Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Overview
+TodoApp is a basic to-do list application built using Angular. It allows users to manage tasks by adding, editing, and deleting them. The app features a clean and intuitive interface, making it easy for users to organize their tasks.
 
-## Development server
+In addition to being a simple to-do list application, TodoApp can also serve as your personal task tracker. Whether you’re managing work tasks, personal projects, or daily chores, TodoApp provides an efficient way to organize and keep track of your responsibilities. Happy task management! 🚀📝
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+1. **Add Task**: Users can add new tasks to their to-do list.
+2. **Toggle Task**: Tasks can be marked as completed or pending.
+3. **Edit Task**: Users can modify task descriptions.
+4. **Delete Task**: Tasks can be removed from the list.
 
-## Code scaffolding
+## Live Demo
+Check out the live version of TodoApp: [TodoAPP](https://tvpkn-9192.github.io/todoapp/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
+To run TodoApp locally, follow these steps:
 
-## Build
+1. Clone the repository:
+   ```
+   git clone https://github.com/tvpkn-9192/todoapp.git
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the project directory:
+   ```
+   cd todoapp
+   ```
 
-## Running unit tests
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Start the development server:
+   ```
+   ng serve
+   ```
 
-## Running end-to-end tests
+5. Open your browser and visit [http://localhost:4200/](http://localhost:4200/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
